@@ -1,9 +1,8 @@
------------------------------------------------------------------------------------------
--- main.lua
--- Created by: Gil Robern
--- Modified by: Your Name
--- Date: Month Day, Year
--- Description: This calls the splash screen of the app to load itself.
+-- Title: Click on Right Answer
+-- Name: Chelsea NF
+-- Course: ICS2O/3C
+-- This program allows the user to click on the right answer.
+
 -----------------------------------------------------------------------------------------
 
 -- Hiding Status Bar
@@ -16,4 +15,4 @@ local composer = require( "composer" )
 
 -----------------------------------------------------------------------------------------
 
-composer.gotoScene( "level1_screen" )
+composer.gotoScene( "level1_screen.lua" )
